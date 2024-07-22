@@ -1,3 +1,5 @@
+
+import Login from './Login';
 // document.addEventListener("DOMContentLoaded", () => {
 //     const authModal = document.getElementById("auth-modal");
 //     const loginBtn = document.getElementById("login-btn");
@@ -20,10 +22,12 @@
 //     });
 
 // })
+// const flag = ()
 
 const Body = () => {
     const handleJoinClick = () => {
         alert('Join button clicked!');
+        // return <Login />;
         // Add your desired functionality here
         // For example, you could navigate to another page, open a modal, etc.
     };
